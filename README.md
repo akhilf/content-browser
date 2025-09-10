@@ -1,4 +1,4 @@
-# Content Browser (CLO-SET Assessment)
+# Content Browser 
 
 This is a Vite + React + TypeScript sample project implementing the CLO-SET Store assessment features:
 - Keyword search
