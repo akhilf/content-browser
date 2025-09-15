@@ -1,6 +1,6 @@
 # Content Browser 
 
-This is a Vite + React + TypeScript sample project implementing the CLO-SET Store assessment features:
+This is a Vite + React + TypeScript sample project implementing the CLO-SET Store:
 - Keyword search
 - Pricing filters (Paid / Free / View Only)
 - Responsive content grid

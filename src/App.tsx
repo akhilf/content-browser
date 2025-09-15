@@ -73,15 +73,15 @@ export default function App() {
       if(!paid && !free && !viewOnly){
         // all allowed
       } else {
-        const po = typeof it.pricingOption === 'string' ? it.pricingOption.toLowerCase() : '';
-        if(paid && po==='paid'){} 
-        else if(free && po==='free'){}
-        else if(viewOnly && po.includes('view')){}
+        // pricingOption: 0 = Paid, 1 = Free, 2 = View Only
+        if(paid && it.pricingOption === 0){}
+        else if(free && it.pricingOption === 1){}
+        else if(viewOnly && it.pricingOption === 2){}
         else return false;
       }
       // keyword
       if(lower){
-        const fields = ((it.userName||'') + ' ' + (it.title||'')).toLowerCase();
+        const fields = ((it.creator||'') + ' ' + (it.title||'')).toLowerCase();
         if(!fields.includes(lower)) return false;
       }
       return true;
