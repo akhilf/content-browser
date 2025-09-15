@@ -9,7 +9,17 @@ This is a Vite + React + TypeScript sample project implementing the CLO-SET Stor
 - Pricing filters (Paid / Free / View Only)
 - Responsive content grid
 - **Infinite scroll** (loads more items as you scroll to the bottom)
+- Sort options (by name, higher price, lower price)
 - URL query persistence for filters/search
+## Sort Options
+
+You can sort the content list using the dropdown above the grid:
+- **Sort by Name**: Alphabetical order (default)
+- **Higher Price**: Items with higher price first
+- **Lower Price**: Items with lower price first
+
+The selected sort order is applied instantly to the visible items.
+
 
 ## Infinite Scroll Implementation
 
