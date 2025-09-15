@@ -1,10 +1,13 @@
 # Retail Store
 
+<img width="1198" height="944" alt="Screenshot 2025-09-15 at 7 19 14 AM" src="https://github.com/user-attachments/assets/7ad76344-ad63-4865-8544-b7e341d635c4" />
+<img width="1138" height="940" alt="Screenshot 2025-09-15 at 7 19 26 AM" src="https://github.com/user-attachments/assets/aa7c114b-4f27-4dc0-8f6c-8166edd7d393" />
+<img width="1153" height="944" alt="Screenshot 2025-09-15 at 7 19 36 AM" src="https://github.com/user-attachments/assets/1b04db8d-732e-411b-b4ae-0d60753feed7" />
 
-<img width="1476" height="1002" alt="Screenshot 2025-09-10 074219" src="https://github.com/user-attachments/assets/7a2b4e8c-eec3-4ca8-9922-2663c02edab7" />
 
 
-This is a Vite + React + TypeScript sample project implementing Retail Store features:
+
+This is a Vite + React + TypeScript project implementing Retail Store features:
 - Keyword search
 - Pricing filters (Paid / Free / View Only)
 - Responsive content grid
